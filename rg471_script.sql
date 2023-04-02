@@ -88,7 +88,7 @@ FROM unit
 GROUP BY unit_name, training_type
 HAVING COUNT(unit_name) > 2;
 
--- 8. which unit has the most target hits and which one has the least based on the type of training
+-- 8. which unit has the most target hits and which one has the least based on the type of training?
 
 SELECT * FROM target;
 SELECT * FROM unit;
